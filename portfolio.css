@@ -1,0 +1,62 @@
+:root{
+    --thr-color : rgb(89, 89, 255);
+    --sec-color : white;
+    --first-color : black;
+}
+:root{
+    --head-font : 3rem;
+    --body-font : 1rem;
+    --content-font : 0.5rem;
+}
+:root{
+    --head-style : Verdana, Geneva, Tahoma, sans-serif;
+    --body-style :  Arial, Helvetica, sans-serif;
+    --contetnt-style : Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--first-color);
+    color: var(--sec-color);
+    margin: 1rem;
+    border-radius: 50px;
+}
+.header{
+    font-size: var(--head-font);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3rem;
+    padding: 0.5rem;
+}
+.nav-list{
+    margin-right: 3rem;
+}
+.nav-list li {
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+.nav-list a{
+    text-decoration: none;
+    color: var(--body-font);
+    cursor: pointer;
+}
+.nav-list a:hover{
+    color: var(--first-color);
+    background-color: var(--sec-color);
+    padding: 0.5rem;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+.home-content{
+  background-repeat: no-repeat;
+  height: 100rem;
+  width: 100%;
+  padding: 3rem;
+}
